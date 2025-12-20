@@ -24,10 +24,7 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Setup Java JDK
-        uses: actions/setup-java@v5.1.0
-        with:
-          java-version: 17
+
 
       - name: Fetch Translations
         run: npm run crowdin:sync
