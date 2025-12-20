@@ -27,7 +27,7 @@ jobs:
       - name: Setup Java JRE for crowdin
         uses: actions/setup-java@v5.1.0
         with:
-          java-version: 17
+          java-version: 21
           java-package: jre
           distribution: temurin
 
